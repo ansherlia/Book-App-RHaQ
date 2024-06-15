@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(66, 66, 66);
+	background-color: rgb(39, 39, 39);
+	padding: 10px 20px;
+	margin: 20px 0 80px;
+	border-radius: 15px;
+	color: rgb(131, 133, 134);
+}
+.header a {
+	text-decoration: none;
+	color: blueviolet;
+}
+.header a:hover {
+	text-decoration: underline;
+	color: rgb(81, 81, 228);
+	transform: rotate(90deg);
+}
+.header h1 {
+	font-size: 2.4rem;
+	font-weight: 800;
+}
+.header p {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+.footer {
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 150px 0 40px;
+	background-color: rgb(39, 39, 39);
+	padding: 15px 20px;
+	margin: 20px 0 80px;
+	border-radius: 15px;
+	color: rgb(162, 164, 165);
+	font-weight: 700;
+}
+.footer i {
+	color: red;
+}
