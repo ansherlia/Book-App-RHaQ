@@ -1,0 +1,31 @@
+input {
+	width: 300px;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	margin: 0 0 40px;
+	background-color: rgb(75, 75, 73);
+	color: #fff;
+}
+input:focus {
+	outline: none;
+}
+.button {
+	padding: 10px;
+	font-size: 1.3rem;
+	margin: 0 0 40px;
+	background-color: blueviolet;
+	border: none;
+	margin: 0 4px 40px;
+	color: #fff;
+	transition: 0.4s all ease-in-out;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.button:hover {
+	transform: scale(110%);
+}
+.contain {
+	display: flex;
+	align-items: center;
+}
